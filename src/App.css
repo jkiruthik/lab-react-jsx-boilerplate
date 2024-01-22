@@ -1,1 +1,15 @@
 /* add your styles here */
+.center{
+    text-align: center;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.img-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
